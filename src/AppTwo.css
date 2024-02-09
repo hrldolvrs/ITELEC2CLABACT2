@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e2129;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #1e2028;
+  shape-outside: linear-gradient();
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #ced4da;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  margin: 0px 0px 50px 50px;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+nav a:hover {
+  background-color: #212529;
+  color: #056477;
+}
+
+/* nav a.active {
+  background-color: #0ab3d4;
+  color: rgb(255, 255, 255);
+} */
+
+.content {
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+.avatar {
+  width: 16%;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-sidebar {
+  width: 13%;
+  display: block;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.search-bar {
+  width: 50%;
+  margin-top: 30px;
+  display: block;
+  padding: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: #0ab3d4;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.p {
+  font-size: 20px;
+  text-align: left;
+  color: #0ab3d4;
+  padding: 0px 80px 0px 80px;
+}
+.a {
+  font-size: 17px;
+  text-align: left;
+  text-align: justify;
+  color: #7d878f;
+  padding: 0px 80px 0px 80px;
+}
+
+.border {
+  border-radius: 12px;
+}

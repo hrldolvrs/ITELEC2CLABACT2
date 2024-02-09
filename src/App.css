@@ -1,0 +1,153 @@
+:root {
+  --nav-a-color: rgb(206, 212, 208);
+  --nav-bg-color: rgb(30, 32, 40);
+  --nav-a-bg-hover: rgb(33, 37, 41);
+  --nav-a-color-hover: rgb(5, 100, 119);
+  --button-bg: rgb(10, 179, 212);
+  --button-color: rgb(0, 0, 0);
+  --p-color:  rgb(10, 179, 212);
+  --a-color: rgb(125, 135, 143);
+  --bs-footer1-color: rgb(19, 21, 26);
+  --bs-footer2-color: rgb(13, 14, 17);
+  --bs-white-rgb: 255,255,255;
+  --bs-primary-rgb: 0,172,193;
+}
+
+body {
+  background-color: rgb(30, 33, 41);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*NAVBAR CSS*/
+
+nav {
+  background-color: var(--nav-bg-color);
+  overflow: hidden;
+  shape-outside: linear-gradient();
+}
+
+nav a {
+  color: var(--nav-a-color);
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 30px 0 0;
+}
+
+.navbar-brand {
+  margin: 0px 80px 50px 300px;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+nav a:hover {
+  background-color: var(--nav-a-bg-hover);
+  color: var(--nav-a-color-hover);
+}
+
+.TextContent {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.logo {
+  display: block;
+  width: 16%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.8rem;
+}
+
+.header-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.3rem;
+}
+
+.search-sidebar {
+  display: block;
+  width: 13%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 180px;
+  padding: 10px;
+}
+
+.search-bar {
+  display: block;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18px;
+  border-radius: 0.8rem;
+}
+
+.button {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.content-center-title {
+  font-style: Sans-serif;
+  font-size: 20px;
+}
+
+.herald-title {
+  color: var(--p-color);
+  font-size: 20px;
+  text-align: left;
+  padding: 0px 80px 0px 80px;
+}
+
+.herald-content {
+  color: var(--a-color);
+  font-size: 17px;
+  text-align: left;
+  text-align: justify;
+  padding: 0px 80px 0px 80px;
+}
+
+.border {
+  border-radius: 12px;
+}
+
+.footer1 {
+  --bs-bg-opacity: 1;
+  display: block;
+  background-color: var(--bs-footer1-color), var(--bs-bg-opacity)!important;
+}
+
+.footer2 {
+  --bs-bg-opacity: 1;
+  display: block;
+  background-color: var(--bs-footer2-color), var(--bs-bg-opacity)!important;
+}
+
+.herald-footer-title {
+  color: var(--p-color);
+  font-size: 17px;
+  text-align: left;
+}
+
+.herald-footer-text {
+  color: var(--a-color);
+  font-size: 17px;
+  text-align: left;
+}
