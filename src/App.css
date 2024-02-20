@@ -5,21 +5,26 @@
   --nav-a-color-hover: rgb(5, 100, 119);
   --button-bg: rgb(10, 179, 212);
   --button-color: rgb(0, 0, 0);
-  --p-color:  rgb(10, 179, 212);
   --a-color: rgb(125, 135, 143);
   --bs-footer1-color: rgb(19, 21, 26);
   --bs-footer2-color: rgb(13, 14, 17);
-  --bs-white-rgb: 255,255,255;
-  --bs-primary-rgb: 0,172,193;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-primary-rgb: 0, 172, 193;
 }
 
 body {
-  background-color: rgb(30, 33, 41);
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+body.day {
+  background-color: rgb(4, 49, 27);
+}
+
+body.night {
+  background-color: rgb(30, 33, 41);
+}
 /*NAVBAR CSS*/
 
 nav {
@@ -109,8 +114,15 @@ nav a:hover {
   font-size: 20px;
 }
 
-.herald-title {
-  color: var(--p-color);
+p.herald-title-a {
+  color: rgb(10, 179, 212);
+  font-size: 20px;
+  text-align: left;
+  padding: 0px 80px 0px 80px;
+}
+
+p.herald-title-b {
+  color: rgb(10, 212, 71);
   font-size: 20px;
   text-align: left;
   padding: 0px 80px 0px 80px;
@@ -131,13 +143,13 @@ nav a:hover {
 .footer1 {
   --bs-bg-opacity: 1;
   display: block;
-  background-color: var(--bs-footer1-color), var(--bs-bg-opacity)!important;
+  background-color: var(--bs-footer1-color), var(--bs-bg-opacity) !important;
 }
 
 .footer2 {
   --bs-bg-opacity: 1;
   display: block;
-  background-color: var(--bs-footer2-color), var(--bs-bg-opacity)!important;
+  background-color: var(--bs-footer2-color), var(--bs-bg-opacity) !important;
 }
 
 .herald-footer-title {

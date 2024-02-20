@@ -1,11 +1,14 @@
-function TextProps(props){
-    return (
-        <div>
-            <p class = "herald-title">{props.TextObj.title}</p>
-            <p class = "herald-content">{props.TextObj.content}</p>
-
-        </div>
-    )
+function TextProps({ TextObj }) {
+  return (
+    <div>
+      {TextObj.textOrder == 0 ? (
+        <p class="herald-title-a">{TextObj.title} IMPORTANT!</p>
+      ) : (
+        <p class="herald-title-b">{TextObj.title}</p>
+      )}
+      <p className="herald-content">{TextObj.content}</p>
+    </div>
+  );
 }
 
-export default TextProps
+export default TextProps;
